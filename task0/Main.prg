@@ -95,7 +95,7 @@ Function Pick_Infeed_Token
 	On 8
 	Wait .5
 	Move Infeed_Token +X(-1) +Z(50 + (Tokens * TokenHeight)) CP
-	Tokens = Tokens - 1 '
+	'Tokens = Tokens - 1'
 Fend
 
 Function Pick_Infeed_Block
@@ -106,7 +106,7 @@ Function Pick_Infeed_Block
 	On 8
 	Wait .5
 	Move Infeed_Block +X(-1) +Y(1) +Z(50 + (Blocks * BlockHeight)) CP
-	Blocks = Blocks - 1 '
+	'Blocks = Blocks - 1'
 Fend
 
 Function Alignment_Token
@@ -164,4 +164,5 @@ Function Place_Tray_Block
 	Move Tray_Block +X(-.05 * Blocks) +Y(-30. * Blocks) +Z(50) CP
 	Blocks = Blocks - 1
 Fend
+
 

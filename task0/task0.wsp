@@ -1,4 +1,4 @@
-ENVT0100,LM:2024/11/28 17:58:15:102,DS:0000001433,CS:27469,MA:EC-2E-98-60-B9-44,EI:           
+ENVT0100,LM:2024/11/28 18:45:16:516,DS:0000001434,CS:02070,MA:EC-2E-98-60-B9-44,EI:           
 sActiveChild="Main.prg"
 bMdiMaximized=False
 ProgramFile1 {
@@ -6,8 +6,8 @@ ProgramFile1 {
 	bOpened=True
 	nWinState=0
 	Window {
-		nLeft=40
-		nTop=63
+		nLeft=116
+		nTop=61
 		nWidth=813
 		nHeight=815
 	}
@@ -50,8 +50,8 @@ CmdWindow {
 RunWindow {
 	bOpened=False
 	Window {
-		nLeft=352
-		nTop=232
+		nLeft=606
+		nTop=258
 		nWidth=464
 		nHeight=378
 	}

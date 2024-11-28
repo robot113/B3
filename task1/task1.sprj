@@ -1,11 +1,11 @@
-ENVT0100,LM:2024/11/28 17:52:16:909,DS:0000002723,CS:01636,MA:EC-2E-98-60-B9-44,EI:           
+ENVT0100,LM:2024/11/28 18:30:28:054,DS:0000002724,CS:52427,MA:EC-2E-98-60-B9-44,EI:           
 SystemProperties {
 	sRC50Version="5.4.7"
-	sGUID="17d289ad-e785-4019-ba92-5fe0c57e0962"
+	sGUID="77fd52bf-23cb-441d-8526-b5626aac81c8"
 	bSimple=False
 	sCreated="2010/08/31 12:02:13"
-	sLastModified="2024/11/29 上午 01:52:14"
-	bBuildComplete=True
+	sLastModified="2024/11/29 上午 02:22:56"
+	bBuildComplete=False
 	bRebuildRequired=False
 	bClearControllerProject=False
 	bClearGlobalPreserves=False
@@ -30,7 +30,7 @@ ProgramFile1 {
 	sName="Main.prg"
 	bCompiled=True
 	bStoreInController=True
-	sTimeSavedInController="2024/11/28 下午 05:49:19"
+	sTimeSavedInController="2024/11/28 下午 06:22:56"
 }
 ProgramFile2 {
 	sName="TCPIPdemo.prg"
