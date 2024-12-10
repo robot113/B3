@@ -14,8 +14,8 @@
 ### **Task 2:Stacking code**
 #### Task 2介紹:Stacking程式碼
 
-### **Task 3:HMI control**
-#### Task 3介紹:
+### **Task 3:HMI control&雙金字塔堆疊**
+#### Task 3介紹:HMI demo&雙金字塔堆疊程式碼
 
 
 
