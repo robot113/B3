@@ -1,7 +1,7 @@
-ENVT0100,LM:2024/12/09 12:29:01:266,DS:0000003563,CS:09500,MA:0C-9D-92-11-3E-60,EI:           
+ENVT0100,LM:2024/12/10 06:10:37:232,DS:0000004723,CS:04410,MA:EC-2E-98-60-B9-44,EI:           
 sVersion="1.0.0"
 nDisplayMode=4
-nNumberOfPoints=16
+nNumberOfPoints=22
 Point1 {
 	nNumber=0
 	sLabel="HOME"
@@ -222,10 +222,10 @@ Point13 {
 	nNumber=12
 	sLabel="Task3_start"
 	sDescription=""
-	rX=427.697
-	rY=-53.3
-	rZ=105.423
-	rU=0
+	rX=436.672
+	rY=-59.394
+	rZ=102.978
+	rU=-84.737
 	rV=0
 	rW=0
 	nLocal=0
@@ -260,8 +260,8 @@ Point15 {
 	sDescription=""
 	rX=427.697
 	rY=145.399
-	rZ=-10.605
-	rU=0
+	rZ=-10.982
+	rU=25.863
 	rV=0
 	rW=0
 	nLocal=0
@@ -276,9 +276,117 @@ Point16 {
 	nNumber=15
 	sLabel="Task3_move2"
 	sDescription=""
-	rX=467.423
-	rY=145.399
-	rZ=-9.621
+	rX=365.607
+	rY=145.46
+	rZ=-11.368
+	rU=25.863
+	rV=0
+	rW=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ4Flag=0
+	nJ6Flag=0
+	bSimVisible=False
+}
+Point17 {
+	nNumber=16
+	sLabel="t1"
+	sDescription=""
+	rX=50
+	rY=0
+	rZ=0
+	rU=0
+	rV=0
+	rW=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ4Flag=0
+	nJ6Flag=0
+	bSimVisible=False
+}
+Point18 {
+	nNumber=17
+	sLabel="t2"
+	sDescription=""
+	rX=75
+	rY=0
+	rZ=0
+	rU=0
+	rV=0
+	rW=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ4Flag=0
+	nJ6Flag=0
+	bSimVisible=False
+}
+Point19 {
+	nNumber=18
+	sLabel="t3"
+	sDescription=""
+	rX=100
+	rY=0
+	rZ=0
+	rU=0
+	rV=0
+	rW=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ4Flag=0
+	nJ6Flag=0
+	bSimVisible=False
+}
+Point20 {
+	nNumber=19
+	sLabel="b1"
+	sDescription=""
+	rX=50
+	rY=100
+	rZ=0
+	rU=0
+	rV=0
+	rW=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ4Flag=0
+	nJ6Flag=0
+	bSimVisible=False
+}
+Point21 {
+	nNumber=20
+	sLabel="b2"
+	sDescription=""
+	rX=75
+	rY=100
+	rZ=0
+	rU=0
+	rV=0
+	rW=0
+	nLocal=0
+	nHand=1
+	nElbow=1
+	nWrist=1
+	nJ4Flag=0
+	nJ6Flag=0
+	bSimVisible=False
+}
+Point22 {
+	nNumber=21
+	sLabel="b3"
+	sDescription=""
+	rX=100
+	rY=100
+	rZ=0
 	rU=0
 	rV=0
 	rW=0

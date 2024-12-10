@@ -1,15 +1,15 @@
-ENVT0100,LM:2024/12/09 14:57:35:552,DS:0000002979,CS:08928,MA:0C-9D-92-11-3E-60,EI:           
+ENVT0100,LM:2024/12/10 06:14:13:577,DS:0000002987,CS:47221,MA:EC-2E-98-60-B9-44,EI:           
 SystemProperties {
 	sRC50Version="5.4.7"
 	sGUID="76a9fc30-df3b-400e-95bc-494358c2877a"
 	bSimple=False
 	sCreated="2024/12/9 下午 07:21:46"
-	sLastModified="2024/12/9 下午 10:57:11"
+	sLastModified="2024/12/10 下午 02:14:11"
 	bBuildComplete=True
 	bRebuildRequired=False
 	bClearControllerProject=False
 	bClearGlobalPreserves=False
-	sComputerName="I5-8400-01"
+	sComputerName="LAPTOP-SUO53CI2"
 }
 UserProperties {
 	sVersion=""
@@ -30,7 +30,7 @@ ProgramFile1 {
 	sName="Main.prg"
 	bCompiled=True
 	bStoreInController=True
-	sTimeSavedInController="2024/12/9 下午 02:20:24"
+	sTimeSavedInController="2024/12/10 上午 06:08:01"
 }
 ProgramFile2 {
 	sName="Main1.prg"
@@ -42,7 +42,7 @@ ProgramFile3 {
 	sName="Main2.prg"
 	bCompiled=True
 	bStoreInController=True
-	sTimeSavedInController="2024/12/9 下午 02:54:14"
+	sTimeSavedInController="2024/12/9 下午 02:57:10"
 }
 ProgramFile4 {
 	sName="Main3.prg"
@@ -54,7 +54,7 @@ nIncludeFileCount=0
 nPointFileCount=1
 PointFile1 {
 	sName="Points.pts"
-	sTimeSavedInController="2024/12/9 下午 02:47:44"
+	sTimeSavedInController="2024/12/10 上午 06:12:37"
 }
 OperatorSettings {
 	OperatorWindow {

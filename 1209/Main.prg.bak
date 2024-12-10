@@ -1,5 +1,6 @@
 Integer Tokens
 Integer Blocks
+Integer pick_token_count, pick_block_count
 Double TokenHeight
 Double BlockHeight
 Function main
@@ -11,7 +12,8 @@ Accel 30, 30
 SpeedS 500
 AccelS 5000
 Tool 1
-
+pick_token_count = 2
+pick_block_count = 2
 Tokens = 2
 Blocks = 2
 TokenHeight = 6.0
@@ -21,59 +23,51 @@ Integer BlockID
 
 Go Retract_Safe
 
+'For TokenID = Tokens To 0 Step -1
+'	Pick_Infeed_Token()
+'	Alignment_Token()
+'	Place_Tray_Token()
+'Next TokenID
+'
+'For BlockID = Blocks To 0 Step -1
+'	Pick_Infeed_Block()
+'	Alignment_Block()
+'	Place_Tray_Block()
+'Next BlockID
 For TokenID = Tokens To 0 Step -1
 	Pick_Infeed_Token()
 	Alignment_Token()
-	Place_Tray_Token()
+	If pick_token_count = 2 Then
+		Place_Tray_Token_1()
+		pick_token_count = pick_token_count - 1
+	EndIf
+	If pick_token_count = 1 Then
+		Place_Tray_Token_2()
+		pick_token_count = pick_token_count - 1
+	EndIf
+	If pick_token_count = 0 Then
+		Place_Tray_Token_3()
+		pick_token_count = pick_token_count - 1
+	EndIf
 Next TokenID
 
 For BlockID = Blocks To 0 Step -1
 	Pick_Infeed_Block()
 	Alignment_Block()
-	Place_Tray_Block()
+	If pick_block_count = 2 Then
+		Place_Tray_Block_1()
+		pick_block_count = pick_block_count - 1
+	EndIf
+	If pick_token_count = 1 Then
+		Place_Tray_Block_2()
+		pick_block_count = pick_block_count - 1
+	EndIf
+	If pick_token_count = 0 Then
+		Place_Tray_Block_3()
+		pick_block_count = pick_block_count - 1
+	EndIf
 Next BlockID
-
 Go hhhh
-
-Fend
-Integer Tokens2
-Integer Blocks2
-Integer i, p
-Integer put2
-Double TokenHeight2
-Double BlockHeight2
-Function MAIN3
-
-Motor On
-Power High
-Speed 30
-Accel 30, 30
-SpeedS 500
-AccelS 5000
-Tool 1
-Tokens = 9
-Blocks = 9
-TokenHeight = 6.0
-BlockHeight = 6.0
-put2 = 9
-TokenHeight2 = 6.0
-BlockHeight2 = 6.0
-
-Go Retract_Safe
-
-p = 0
-For i = 0 To put2 Step 1
-	
-    Pick_Infeed_Token()
-    Put(p)
-    p = p + 1
-    Pick_Infeed_Block()
-    Put(p)
-    p = p + 1
-Next
-
-
-Go Retract_Safe
 
 Fend
 Function Pick_Infeed_Token
@@ -144,7 +138,6 @@ Function Place_Tray_Token
 	Move Tray_Token +X(-.05 * Tokens) +Y(-30. * Tokens) +Z(50) CP
 	Tokens = Tokens - 1
 Fend
-
 Function Place_Tray_Block
 	'Tray Block
 	Print "Placing Block in Tray. Block Position ID = ", Blocks
@@ -155,5 +148,52 @@ Function Place_Tray_Block
 	Move Tray_Block +X(-.05 * Blocks) +Y(-30. * Blocks) +Z(50) CP
 	Blocks = Blocks - 1
 Fend
-
+Function Place_Tray_Token_1
+	Go t1 +Z(20) CP
+	Move t1
+	Off 8
+	Wait .5
+	Move t1 +Z(50) CP
+	Tokens = Tokens - 1
+Fend
+Function Place_Tray_Token_2
+	Go t2 +Z(20) CP
+	Move t2
+	Off 8
+	Wait .5
+	Move t2 +Z(50) CP
+	Tokens = Tokens - 1
+Fend
+Function Place_Tray_Token_3
+	Go t3 +Z(20) CP
+	Move t3
+	Off 8
+	Wait .5
+	Move t3 +Z(50) CP
+	Tokens = Tokens - 1
+Fend
+Function Place_Tray_Block_1
+	Go b1 +Z(20) CP
+	Move b1
+	Off 8
+	Wait .5
+	Move b1 +Z(50) CP
+	Blocks = Blocks - 1
+Fend
+Function Place_Tray_Block_2
+	Go b2 +Z(20) CP
+	Move b2
+	Off 8
+	Wait .5
+	Move b2 +Z(50) CP
+	Blocks = Blocks - 1
+Fend
+Function Place_Tray_Block_3
+	Go b3 +Z(20) CP
+	Move b3
+	Off 8
+	Wait .5
+	Move b3 +Z(50) CP
+	Blocks = Blocks - 1
+Fend
 
