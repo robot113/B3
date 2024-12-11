@@ -1,24 +1,44 @@
-# 組別:B3
+# 組別: B3
+
 ## 組員
-### 吳弘昌
-### 吳柏城
-### 李東陽
+- 吳弘昌  
+- 吳柏城  
+- 李東陽  
 
-## 專案
-### **Task 0:Simulation layout**
-#### Task 0介紹:Task1和Task2程式碼和Espon RC+模擬&影片
+## 專案內容
 
-### **Task 1:Pick and place code**
-#### Task 1介紹:在1209資料夾中的"Main.prg(Function main)"，為Pick and place code程式碼
+### **Task 0: Simulation Layout**
+**簡介**  
+- 包含 Task 1 和 Task 2 程式碼的模擬結果。  
+- 使用 Epson RC+ 完成模擬與錄製相關影片。
 
-### **Task 2:Stacking code**
-#### Task 2介紹:在1209資料夾中的"Main1.prg(Function main1)"，為Stacking code程式碼
+---
 
-### **Task 3:HMI control&雙金字塔堆疊**
-#### Task 3介紹:HMI資料夾中HMI控制器設定及GUI圖片&在1209資料夾中的"Main2.prg(Function main2)"，為雙金字塔堆疊程式碼
+### **Task 1: Pick and Place Code**
+**簡介**  
+- 程式碼位於 `1209` 資料夾中的 `Main.prg` (Function `main`)。  
+- 功能：執行取放動作 ，將3個token和3個block放置在tray place指定位置上。
+
+---
+
+### **Task 2: Stacking Code**
+**簡介**  
+- 程式碼位於 `1209` 資料夾中的 `Main1.prg` (Function `main1`)。  
+- 功能：執行堆疊操作，將10個token和10個block相互堆疊起來。
+
+---
+
+### **Task 3: HMI Control & 雙金字塔堆疊**
+**簡介**  
+1. **HMI 設定**  
+   - 位於 `HMI` 資料夾，包括 HMI 控制器的設定。  
+   - 功能：控制手臂移動、開始、停止、中斷、繼續、吸嘴和夾具，以及觸發Task 1、Task 2、Task 3功能運行
+2. **雙金字塔堆疊程式**  
+   - 程式碼位於 `1209` 資料夾中的 `Main2.prg` (Function `main2`)。
+   - 功能：透過夾具夾取stacking完成的工建塔，分類堆疊成兩座金字塔(token&block)。
+
+**範例**  
 ![HMI Demo](HMI.jpg)
-
-
 
 
 
