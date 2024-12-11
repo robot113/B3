@@ -1,4 +1,4 @@
-﻿# 組別:B3
+# 組別:B3
 ## 組員
 ### 吳弘昌
 ### 吳柏城
@@ -16,7 +16,7 @@
 
 ### **Task 3:HMI control&雙金字塔堆疊**
 #### Task 3介紹:HMI資料夾中HMI控制器設定及GUI圖片&在1209資料夾中的"Main2.prg(Function main2)"，為雙金字塔堆疊程式碼
-
+![HMI Demo](HMI.jpg)
 
 
 
