@@ -1,9 +1,9 @@
 # 組別: B3
 
 ## 組員
-- 吳弘昌  
-- 吳柏城  
-- 李東陽  
+- 吳弘昌:task1、task2、task3、AMR  
+- 吳柏城:task1、task2、task3、AMR
+- 李東陽:task1、task2、task3、HMI
 
 ## 專案內容
 
